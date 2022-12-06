@@ -45,6 +45,13 @@ class _MyHomePageState extends State<MyHomePage> {
                         builder: ((context) => const IntrinsicWidgetWorkSpace()))),
                 child: const Text('IntrinsicWidget'),
               ),
+              ElevatedButton(
+                onPressed: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: ((context) => const IntrinsicWidgetWorkSpace()))),
+                child: const Text('IntrinsicWidget'),
+              ),
             ],
           ),
         ));
